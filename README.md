@@ -1,3 +1,17 @@
+# Demo Website
+
+Hero Content
+![alt text](image.png)
+
+Content
+![alt text](src/assets/images/demo/alltrendmovflix.png)
+
+Detail Hero Content
+![alt text](src/assets/images/demo/detailmovflix1.png)
+
+Detail Content
+![alt text](src/assets/images/demo/detailmovflix2.png)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -17,12 +31,12 @@ If you are developing a production application, we recommend updating the config
 export default {
   // other rules...
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
+    ecmaVersion: "latest",
+    sourceType: "module",
+    project: ["./tsconfig.json", "./tsconfig.node.json"],
     tsconfigRootDir: __dirname,
   },
-}
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
